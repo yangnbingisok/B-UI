@@ -7,7 +7,7 @@
 
 > 在使用之前，推荐学习 `Vue` 和 `ES2015` ，并正确配置 `Node.js` v6.x 或以上版本
 
-`bg-ui` 基于 `Vue.js` 2.x+ 版本开发，所以有必要了解以下基础知识：
+`binge-ui` 基于 `Vue.js` 2.x+ 版本开发，所以有必要了解以下基础知识：
 - [Vue 组件](https://cn.vuejs.org/v2/guide/components.html)
 - [单文件组件](https://cn.vuejs.org/v2/guide/single-file-components.html)
 
@@ -31,10 +31,10 @@
 可以在项目的入口文件中引入所有组件或所需组件
 
 ```js
-import BGUI from 'bgui' // 引入组件库
-import '../node_modules/BGUI/packages/theme-default/lib/index.css' // 引入样式库
+import BINGEUI from 'bingeui' // 引入组件库
+import '../node_modules/BINGEUI/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(BGUI)
+Vue.use(BINGEUI)
 ```
 
 ### 单个组件按需使用
@@ -42,7 +42,7 @@ Vue.use(BGUI)
 可以局部注册所需的组件，适用于与其他框架组合使用的场景
 
 ```js
-import { WButton } from 'bg-ui'
+import { WButton } from 'binge-ui'
 
 export default {
   components: {
@@ -63,4 +63,4 @@ export default {
 
 ## 自定义主题
 
-`bg-ui` 各个组件的样式变量都存放在 `bg-ui/packages/theme-defualt/common/var.css` 文件中。用户可根据实际需要，自定义组件的样式
+`binge-ui` 各个组件的样式变量都存放在 `binge-ui/packages/theme-defualt/common/var.css` 文件中。用户可根据实际需要，自定义组件的样式

@@ -1,14 +1,14 @@
 {
-  "name": "bg-ui-theme-default",
+  "name": "binge-ui-theme-default",
   "version": "1.0.0",
-  "description": "bg-ui component default theme.",
+  "description": "binge-ui component default theme.",
   "main": "lib/index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",
     "build": "gulp build"
   },
   "keywords": [
-    "bg-ui",
+    "binge-ui",
     "theme"
   ],
   "author": "yangnbingisok",

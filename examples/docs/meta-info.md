@@ -25,7 +25,7 @@ export default {
       }],
       link: [{
         rel: 'asstes',
-        href: 'https://yangnbingisok.github.io/BG-UI/'
+        href: 'https://yangnbingisok.github.io/BINGE-UI/'
       }]
     }
   }
@@ -79,7 +79,7 @@ export default {
       }],
       link: [{                 // set link
         rel: 'asstes',
-        href: 'https://yangnbingisok.github.io/BG-UI/'
+        href: 'https://yangnbingisok.github.io/BINGE-UI/'
       }]
     }
   }

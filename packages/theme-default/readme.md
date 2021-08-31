@@ -1,3 +1,3 @@
 # Theme default
 
-this is theme default of BG-UI
+this is theme default of BINGE-UI
