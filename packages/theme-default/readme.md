@@ -1,3 +1,3 @@
 # Theme default
 
-this is theme default of B-UI
+this is theme default of BG-UI

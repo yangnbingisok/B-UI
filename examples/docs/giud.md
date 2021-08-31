@@ -2,7 +2,7 @@
 
 ----
 
-`B-UI` 是一款基于 `Vue.js 2.0` 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
+`BG-UI` 是一款基于 `Vue.js 2.0` 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
 
 ## 特性
 
@@ -19,4 +19,4 @@
 
 ## 贡献
 
-如果你在使用 `B-UI` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/yangnbingisok/B-UI/issues) 或 [Pull Request](https://github.com/yangnbingisok/B-UI/pulls)
+如果你在使用 `BG-UI` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/yangnbingisok/BG-UI/issues) 或 [Pull Request](https://github.com/yangnbingisok/BG-UI/pulls)

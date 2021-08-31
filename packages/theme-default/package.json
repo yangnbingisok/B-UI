@@ -1,14 +1,14 @@
 {
-  "name": "b-ui-theme-default",
+  "name": "bg-ui-theme-default",
   "version": "1.0.0",
-  "description": "b-ui component default theme.",
+  "description": "bg-ui component default theme.",
   "main": "lib/index.css",
   "scripts": {
     "dev": "gulp build && gulp watch",
     "build": "gulp build"
   },
   "keywords": [
-    "b-ui",
+    "bg-ui",
     "theme"
   ],
   "author": "yangnbingisok",

@@ -7,7 +7,7 @@
 
 > 在使用之前，推荐学习 `Vue` 和 `ES2015` ，并正确配置 `Node.js` v6.x 或以上版本
 
-`b-ui` 基于 `Vue.js` 2.x+ 版本开发，所以有必要了解以下基础知识：
+`bg-ui` 基于 `Vue.js` 2.x+ 版本开发，所以有必要了解以下基础知识：
 - [Vue 组件](https://cn.vuejs.org/v2/guide/components.html)
 - [单文件组件](https://cn.vuejs.org/v2/guide/single-file-components.html)
 
@@ -42,7 +42,7 @@ Vue.use(BUI)
 可以局部注册所需的组件，适用于与其他框架组合使用的场景
 
 ```js
-import { WButton } from 'b-ui'
+import { WButton } from 'bg-ui'
 
 export default {
   components: {
@@ -63,4 +63,4 @@ export default {
 
 ## 自定义主题
 
-`b-ui` 各个组件的样式变量都存放在 `b-ui/packages/theme-defualt/common/var.css` 文件中。用户可根据实际需要，自定义组件的样式
+`bg-ui` 各个组件的样式变量都存放在 `bg-ui/packages/theme-defualt/common/var.css` 文件中。用户可根据实际需要，自定义组件的样式
