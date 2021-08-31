@@ -1,5 +1,5 @@
 /**
- * @author monkeywang
+ * @author yangnbingisok
  * Date: 17/9/7
  */
 import updateMetaInfo from '../metaOperate/updateMetaInfo'
@@ -21,8 +21,8 @@ VueMetaInfo.install = function (Vue) {
           this.$options.computed = {}
         }
         // 为组件添加 computed 对象并返回 vueMeta 信息
-        this.$options.computed.$metaInfo = type === 'function' ? this.$options[VUE_META_KEY_NAME] :
-          () => this.$options[VUE_META_KEY_NAME]
+        this.$options.computed.$metaInfo = type === 'function' ? this.$options[VUE_META_KEY_NAME]
+          : () => this.$options[VUE_META_KEY_NAME]
       }
     },
     beforeMount () {

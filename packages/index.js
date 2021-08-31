@@ -1,8 +1,8 @@
 /**
- * @author monkeywang
+ * @author yangnbingisok
  * Date: 17/11/9
  */
-import WButton from './button/index.js';
+import WButton from './button/index.js'
 import WRow from './row/index'
 import WCol from './col/index'
 import WTag from './tag/index'
@@ -24,7 +24,7 @@ const components = [
   Skeleton
 ]
 
-const install = function(Vue) {
+const install = function (Vue) {
   if (install.installed) return
   components.map(component => Vue.component(component.name, component))
   MetaInfo.install(Vue)

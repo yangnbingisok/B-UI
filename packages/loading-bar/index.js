@@ -1,5 +1,5 @@
 /**
- * @author monkeywang
+ * @author yangnbingisok
  * Date: 17/11/18
  */
 import Vue from 'vue'
@@ -15,7 +15,7 @@ let WLoadingBar = () => {
 LoadingBarConstructor.prototype.config = function (options) {
   Object.keys(options).forEach((key) => {
     if (key === 'isError' || key === 'totalProgress') {
-      return;
+      return
     }
     this[key] = options[key]
   })
@@ -34,9 +34,9 @@ LoadingBarConstructor.prototype.start = function () {
   this.init()
   timer = setInterval(() => {
     if (this.totalProgress < 90) {
-      this.totalProgress += (this.percentNum || Math.random()) * this.speed;
+      this.totalProgress += (this.percentNum || Math.random()) * this.speed
     }
-  }, 100);
+  }, 100)
 }
 
 LoadingBarConstructor.prototype.end = function () {
@@ -57,6 +57,3 @@ LoadingBarConstructor.prototype.error = function () {
 }
 
 export default WLoadingBar()
-
-
-

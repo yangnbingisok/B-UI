@@ -1,16 +1,16 @@
 <p align="center">
   <a href="https://at.aotu.io/">
-    <img width="200" src="https://github.com/VV-UI/VV-UI/blob/master/examples/assets/img/logo.png">
+    <img width="200" src="https://github.com/yangnbingisok/B-UI/blob/master/examples/assets/img/logo.png">
   </a>
 </p>
 
 # 公告
-这个 `UI`库的核心想法是想教大家如何搭建一个基于`Vue`的组件库。市面上已经有很多成熟的中后台组件库，比如`element-ui`和`iview`。这个组件库也是由我一个人维护开发，不建议使用到生产环境，如果有兴趣，可以`fork`下来作为自己技术探索的一个部分。感谢大家的支持，也欢迎大家加我QQ群：`263785852` 一起学习交流。
+这个 `UI`库的核心想法是想教大家如何搭建一个基于`Vue`的组件库。市面上已经有很多成熟的中后台组件库，比如`element-ui`和`iview`。这个组件库也是由我一个人维护开发，不建议使用到生产环境，如果有兴趣，可以`fork`下来作为自己技术探索的一个部分。感谢大家的支持，也欢迎大家加我QQ：`1185809972` 一起学习交流。
 
-# VV UI
+# B UI
 
-`VV-UI` 是一款基于 `Vue.js 2.0` 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
-[演示地址](https://vv-ui.github.io/VV-UI)
+`B-UI` 是一款基于 `Vue.js 2.0` 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
+[演示地址](https://yangnbingisok.github.io/B-UI)
 
 <p align="center">
   <a href="https://github.com/feross/standard">
@@ -18,9 +18,9 @@
   </a>
 </p>
 <p align="center">
-<a href="https://www.npmjs.com/package/vvui"><img src="https://img.shields.io/badge/npm-1.0.4-brightgreen.svg" alt="npm version"></a> 
+<a href="https://www.npmjs.com/package/bui"><img src="https://img.shields.io/badge/npm-1.0.4-brightgreen.svg" alt="npm version"></a>
   <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
-  <a href="https://www.npmjs.com/package/vvui"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a> 
+  <a href="https://www.npmjs.com/package/bui"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a>
 </p>
 
 ## 特性
@@ -40,27 +40,27 @@
 - yarn
 
 ```bash
-yarn add vvui
+yarn add bui
 ```
 
-- npm 
+- npm
 
 ```bash
-npm install vvui --save
+npm install bui --save
 ```
 
 ## 使用
 
 ```js
-import VvUI from 'vvui' // 引入组件库
-import 'vvui/packages/theme-default/lib/index.css' // 引入样式库
+import BUI from 'bui' // 引入组件库
+import 'bui/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(VvUI)
+Vue.use(BUI)
 ```
 
 ## 贡献
 
-如果你在使用 `VV-UI` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/VV-UI/VV-UI/issues) 或 [Pull Request](https://github.com/VV-UI/VV-UI/pulls)
+如果你在使用 `B-UI` 时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/yangnbingisok/B-UI/issues) 或 [Pull Request](https://github.com/yangnbingisok/B-UI/pulls)
 
 
 ## Pull requests 规范

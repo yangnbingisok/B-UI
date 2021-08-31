@@ -1,5 +1,5 @@
 /**
- * @author monkeywang
+ * @author yangnbingisok
  * Date: 17/11/22
  */
 require('./check-versions')();
@@ -27,15 +27,15 @@ inquirer.prompt([{
   default: ''
 }]).then(function (answers) {
   let build = answers.conform ? 'npm run build &&' : '';
-  var cmd = `${build} 
-  git checkout gh-pages && 
-  rm -rf index.html && 
-  rm -rf static && 
-  cd dist && 
+  var cmd = `${build}
+  git checkout gh-pages &&
+  rm -rf index.html &&
+  rm -rf static &&
+  cd dist &&
   mv * ../ &&
-  rm -rf ./dist && 
+  rm -rf ./dist &&
   cd .. &&
-  git add . && 
+  git add . &&
   git commit -m '${answers.message}' &&
   git push`;
   console.log(cmd)

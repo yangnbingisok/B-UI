@@ -7,7 +7,7 @@
     <div class="separate-panel">
       <div class="about">
         <router-link :to="{name: 'giud'}">开始使用</router-link>
-        <a target="_blank" class="btn-github" href="https://github.com/VV-UI/VV-UI">GitHub</a>
+        <a target="_blank" class="btn-github" href="https://github.com/yangnbingisok/B-UI">GitHub</a>
       </div>
     </div>
   </div>
@@ -29,6 +29,10 @@
       margin: 0 auto;
       text-align: center;
       padding: 100px 0;
+      img{
+        width: 100px;
+        height: 150px;
+      }
       p{
         margin-top: 56px;
         color: #8994C6;
