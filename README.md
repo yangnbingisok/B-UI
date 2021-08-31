@@ -18,9 +18,9 @@
   </a>
 </p>
 <p align="center">
-<a href="https://www.npmjs.com/package/bui"><img src="https://img.shields.io/badge/npm-1.0.4-brightgreen.svg" alt="npm version"></a>
+<a href="https://www.npmjs.com/package/bgui"><img src="https://img.shields.io/badge/npm-1.0.4-brightgreen.svg" alt="npm version"></a>
   <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
-  <a href="https://www.npmjs.com/package/bui"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a>
+  <a href="https://www.npmjs.com/package/bgui"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a>
 </p>
 
 ## 特性
@@ -40,22 +40,22 @@
 - yarn
 
 ```bash
-yarn add bui
+yarn add bgui
 ```
 
 - npm
 
 ```bash
-npm install bui --save
+npm install bgui --save
 ```
 
 ## 使用
 
 ```js
-import BUI from 'bui' // 引入组件库
-import 'bui/packages/theme-default/lib/index.css' // 引入样式库
+import BGUI from 'bgui' // 引入组件库
+import 'bgui/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(BUI)
+Vue.use(BGUI)
 ```
 
 ## 贡献

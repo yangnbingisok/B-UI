@@ -31,10 +31,10 @@
 可以在项目的入口文件中引入所有组件或所需组件
 
 ```js
-import BUI from 'bui' // 引入组件库
-import '../node_modules/BUI/packages/theme-default/lib/index.css' // 引入样式库
+import BGUI from 'bgui' // 引入组件库
+import '../node_modules/BGUI/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(BUI)
+Vue.use(BGUI)
 ```
 
 ### 单个组件按需使用
