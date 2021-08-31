@@ -31,8 +31,8 @@
 可以在项目的入口文件中引入所有组件或所需组件
 
 ```js
-import BINGEUI from 'bingeui' // 引入组件库
-import '../node_modules/BINGEUI/packages/theme-default/lib/index.css' // 引入样式库
+import BINGEUI from 'binge-ui' // 引入组件库
+import '../node_modules/binge-ui/packages/theme-default/lib/index.css' // 引入样式库
 
 Vue.use(BINGEUI)
 ```

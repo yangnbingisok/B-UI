@@ -18,9 +18,9 @@
   </a>
 </p>
 <p align="center">
-<a href="https://www.npmjs.com/package/bingeui"><img src="https://img.shields.io/badge/npm-1.0.4-brightgreen.svg" alt="npm version"></a>
+<a href="https://www.npmjs.com/package/binge-ui"><img src="https://img.shields.io/badge/npm-1.0.4-brightgreen.svg" alt="npm version"></a>
   <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
-  <a href="https://www.npmjs.com/package/bingeui"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a>
+  <a href="https://www.npmjs.com/package/binge-ui"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a>
 </p>
 
 ## 特性
@@ -40,20 +40,20 @@
 - yarn
 
 ```bash
-yarn add bingeui
+yarn add binge-ui
 ```
 
 - npm
 
 ```bash
-npm install bingeui --save
+npm install binge-ui --save
 ```
 
 ## 使用
 
 ```js
-import BINGEUI from 'bingeui' // 引入组件库
-import 'bingeui/packages/theme-default/lib/index.css' // 引入样式库
+import BINGEUI from 'binge-ui' // 引入组件库
+import 'binge-ui/packages/theme-default/lib/index.css' // 引入样式库
 
 Vue.use(BINGEUI)
 ```
